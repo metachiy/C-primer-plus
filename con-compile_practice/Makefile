@@ -7,6 +7,6 @@ hotel.o : hotel.c hotel.h
 usehotel.o : usehotel.c hotel.h
 	gcc -c usehotel.c
 
-#windos下 del /s /q == rm -rf
+#windows下 del /s /q == rm -rf
 clean :
 	del /s /q *.exe *.o
